@@ -1,0 +1,13 @@
+prefix=/Users/arshdeepsingh/Documents/Langserve-Demo-main/venv
+exec_prefix=/Users/arshdeepsingh/Documents/Langserve-Demo-main/venv
+libdir=/Users/arshdeepsingh/Documents/Langserve-Demo-main/venv/lib
+sharedlibdir=/Users/arshdeepsingh/Documents/Langserve-Demo-main/venv/lib
+includedir=/Users/arshdeepsingh/Documents/Langserve-Demo-main/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
